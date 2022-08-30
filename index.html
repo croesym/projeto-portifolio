@@ -13,52 +13,47 @@
 <body>
     
     <!-- Secção Central -->
-    <main> 
+    <main class="content"> 
 
     <header>
         <p>Meus projetos</p>
         <a href="">Veja todos</a>
     </header>
+    
+        <div class="projetos"> 
+            <div class="item">
+                <a href=""><img src="assets/folder.svg" alt="">página-de-receitas</a>
+                <p>Página Web de uma receita com título, imagem, lista de ingredientes e modo de preparo.</p>
 
-     <div class="projetos">
-        <div class="item">
-            <a href=""><img src="assets/folder.svg" alt="">página-de-receitas</a>
-            <p>Página Web de uma receita com título, imagem, lista de ingredientes e modo de preparo.</p>
-                <div class="alinhamento">
+                <div class="align">
                     <h2><img src="assets/star.svg" alt="">100</h2>
                     <h2><img src="assets/git-branch.svg" alt="">100</h2>
-                    <h3><img src="assets/css3.svg" alt="">CSS3</h3>
+                    <h3 class="align-right"><img src="assets/css3.svg" alt="">CSS3</h3>
                 </div>
             </div>
 
             <div class="item">
                 <a href=""><img src="assets/folder.svg" alt="">social-tree</a>
-                <p>Página Web com lista de links, usada em perfis de redes sociais para direcionar o usuário para o local escolhido</p>
+                <p>Página Web com lista de links, usada em perfis de redes sociais para direcionar o usuário para o local escolhido.</p>
     
-                    <div class="alinhamento">
-                        <h2><img src="assets/star.svg" alt="">100</h2>
-                        <h2><img src="assets/git-branch.svg" alt="">100</h2>
-                        <h3><img src="assets/css3.svg" alt="">CSS3</h3>
-                    </div>
+                <div class="align">
+                    <h2><img src="assets/star.svg" alt="">100</h2>
+                    <h2><img src="assets/git-branch.svg" alt="">100</h2>
+                    <h3 class="align-right"><img src="assets/css3.svg" alt="">CSS3</h3>
                 </div>
+            </div>
 
             <div class="item">
                 <a href=""><img src="assets/folder.svg" alt="">rocket-news</a>
-                <p>Página web simples utilizando HTML e CSS que servirá no futuro para captação de leads ou inscrição em newsletter<p>
+                <p>Página web simples utilizando HTML e CSS que servirá no futuro para captação de leads ou inscrição em newsletter.<p>
 
-                <div class="alinhamento">
+                <div class="align">
                     <h2><img src="assets/star.svg" alt="">100</h2>
                     <h2><img src="assets/git-branch.svg" alt="">100</h2>
-                    <h3><img src="assets/css3.svg" alt="">CSS3</h3>
+                    <h3 class="align-right"><img src="assets/css3.svg" alt="">CSS3</h3>
                 </div>
             </div>
-    </div>
-
-            
-            
-
-
-        </div>
+        </div> <!-- Fim da div.projetos -->
 
         <div class="posts">
 
@@ -67,21 +62,22 @@
             </div>
 
             <div class="post">
-            <img src="assets/profile.jpg" alt="">
-
-                <div class="alinhamento2">
+                <img src="assets/profile.jpg" alt="">
+                <div class="post-align">
                     <h1>Erro adb devices no Genymotion e Android Studio (React Native)</h1>
                     <h2>1 ano atrás</h2>
                     <p>Erro adb devices no Genymotion e Android Studio (React Native)</p>
                     <p>#react-native #genimotion #androidstudio #adb</p>
                 </div>
             </div>
+
         </div>
         
     </main>
 
     <!-- Secção esquerda -->
     <aside>
+
         <div class="profile">
            <img src="assets/profile.jpg" alt="">
             <h1>Matheus Croesy</h1>
@@ -89,7 +85,6 @@
         </div>
      
         <div class="links">
-
             <p><img src="assets/map-pin.svg" alt="">Brasil</p>
             <p><img src="assets/briefcase.svg" alt=""> Rocketseat</p>
             <p><img src="assets/github.svg" alt="">croesym</p>
@@ -97,22 +92,21 @@
             <p><img src="assets/twitter.svg" alt=""> croesym</p>
             <p><img src="assets/globe.svg" alt=""> https://frontend.dev</p>
             <p><img src="assets/mail.svg" alt=""> matheuscroesy@gmail.com</p>
-            
         </div>
 
         <div class="techs">
-        <p>Tecnologias</p>
-            <ul>
-                <li>JS</li>
-                <li>ReactJs</li>
-                <li>NodeJs</li>
-                <li>Git</li>
-                <li>Github</li>
-                <li>Html</li>
-                <li>Css</li>
-                <li>Elixir</li>
-                <li>Vue</li>
-            </ul>
+            <p class="tittle">Tecnologias</p>
+            <div class="techs-grid">   
+                <p>JS</p>
+                <p>ReactJs</p>
+                <p>NodeJs</p>
+                <p>Git</p>
+                <p>Github</p>
+                <p>Html</p>
+                <p>Css</p>
+                <p>Elixir</p>
+                <p>Vue</p>
+            </div>
         </div>
 
         <div class="exps">
@@ -131,6 +125,6 @@
                 <p>2019 - Atualmente <br>Community Experience</p>
         </div>
     </aside>
-    
+
 </body>
 </html>
