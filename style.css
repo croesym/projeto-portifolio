@@ -89,6 +89,7 @@ aside{
 }
 /* LINKS */
 
+/* TECNOLOGIAS */
 .techs{
     display: flex;
     flex-direction: row;
@@ -100,7 +101,6 @@ aside{
     border-radius: 20px;
 }
 
-/* TECNOLOGIAS */
 .techs p{
     margin: 10px 0px 5px 10px;
     font-weight: 700;
@@ -108,15 +108,23 @@ aside{
     line-height: 25px;  
 }
 
-.techs ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.tittle{
+    margin: 10px 0px 5px 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;  
 }
 
-.techs ul li{
+.techs-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    width: 95%;
+}
+
+.techs-grid p{
     background: #CB92B1;
     text-align: center;
     font-weight: 600;
@@ -124,12 +132,12 @@ aside{
     text-transform: uppercase;
     list-style-type: none;
     margin: 10px;
-    width: 100%;
-    max-width: 25%;
+    width: 90%;
     border-radius: 30px;
     color: black;
 }
 /* TECNOLOGIAS */
+
 
 /* EXPERIENCIAS */
 .exps{
@@ -174,6 +182,7 @@ aside{
 /* EXPERIENCIAS */
 /* TÉRMINO ASIDE */
 
+
 /* MAIN */
 /* HEADER */
 main header{
@@ -184,6 +193,7 @@ main header{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     height: 5%;
+    width: 95%;
 }
 
 main header p{
@@ -205,16 +215,12 @@ main header a{
     line-height: 18px;
 }
 /* TÉRMINO HEADER */
-.projetos{
-    display: flex;
-}
 
 /* PROJETOS */
 .item{
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
-    margin-bottom: 30px;
+    margin: 0px 0px 30px 30px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -253,17 +259,21 @@ main header a{
     font-weight: 550;
 }
 
-.item h2 img{
+.item h2, h3 img{
     margin-right: 5px;
-}   
-
-.alinhamento{
-    display: flex;
-    flex-direction: row;
 }
 
-.alinhamento h3{
-    margin-left: 100px;
+.align-right{
+    margin-left: auto;
+    margin-right: 5%;
+
+}
+
+.align{
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: 2%;
 }
 
 .projetos{
@@ -278,13 +288,12 @@ main header a{
 .recente{
     display: flex;
     align-items: center;
-    margin: 30px;
+    margin: 0px 30px 30px 30px;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     height: 60px;
     width: 95%;
-    
 }
 
 .recente p{
@@ -331,8 +340,15 @@ main header a{
     letter-spacing: 1px;
 }
 
-.alinhamento2{
+.post-align{
     display: flex;
     flex-direction: column;
 }
 /* FIM POST */
+
+@media(min-width: 620px) and (max-width: 969px){
+    .item{
+        width: 95%;
+    }
+    
+}
