@@ -4,7 +4,7 @@ Primeira versão de um portifólio utilizando apenas HTML e CSS.
 
 Projeto proposto pela Rocketseat.
 
-Layout original: https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate
+[Layout original](https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate).
 
   <h2>To Do list:
 
