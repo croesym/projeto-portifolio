@@ -13,7 +13,7 @@ body {
     grid-template-areas: "aside main";
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    }
+}
 
 main{
     grid-area: main;
@@ -27,86 +27,11 @@ aside div{
     margin: 30px;
 }
 
-/* ASIDE */
-/* PROFILE */
-.profile{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* margin: 30px; */
-    height: 30vh;
-    max-height: 30vh;
-    background: #302F3D;
+#shadow{
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-}
-
-.profile img{
-    border: 1.5px solid #00FF00;
-    max-width: 30%;
-    border-radius: 50%;
-  }
-/* FIM PROFILE */
-
-/* LINKS */
-.links{
-    display: flex;
-    flex-direction: column;
-    /* margin: 30px; */
     background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
 }
-
-.links img{
-    margin-right: 10px;
-}
-/* FIM LINKS */
-
-/* TECNOLOGIAS */
-.techs{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* margin: 30px; */
-    height: fit-content;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-}
-
-.techs-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 5px;
-    grid-row-gap: 0px;
-    width: 95%;
-    margin: 0;
-}
-/* TECNOLOGIAS */
-
-/* EXPERIENCIAS */
-.exps{
-    display: flex;
-    flex-direction: column;
-    /* margin: 30px; */
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
-}
-
-.exps ul{
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 0px;
-    margin: 0px;
-}
-/* EXPERIENCIAS */
-/* TÉRMINO ASIDE */
-
 
 /* MAIN */
 /* HEADER */
@@ -114,9 +39,6 @@ main header{
     display: flex;
     align-items: center;
     margin: 30px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
     height: 5%;
     width: 95%;
 }
@@ -126,10 +48,7 @@ main header{
 .item{
     display: flex;
     flex-direction: column;
-    margin: 0px 0px 30px 30px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
+    margin: 0px 0px 30px 30px;  
     width: 305px;
     height: 150px;  
 }
@@ -167,9 +86,6 @@ main header{
     display: flex;
     align-items: center;
     margin: 0px 30px 30px 30px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
     height: 60px;
     width: 95%;
 }
@@ -178,9 +94,6 @@ main header{
     display: flex;
     align-items: center;
     margin: 0px 0px 30px 30px;
-    background: #302F3D;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 20px;
     width: 95%;
     height: 15%;
 }
@@ -193,9 +106,75 @@ main header{
 }
 /* FIM POST */
 
+/* ASIDE */
+/* PROFILE */
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    max-height: 30vh;
+}
+
+.profile img{
+    border: 1.5px solid #00FF00;
+    max-width: 30%;
+    border-radius: 50%;
+}
+/* FIM PROFILE */
+
+/* LINKS */
+.links{
+    display: flex;
+    flex-direction: column;
+}
+
+.links img{
+    margin-right: 10px;
+}
+/* FIM LINKS */
+
+/* TECNOLOGIAS */
+.techs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+
+.techs-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    width: 95%;
+    margin: 0;
+}
+/* TECNOLOGIAS */
+
+/* EXPERIENCIAS */
+.exps{
+    display: flex;
+    flex-direction: column;
+    background: #302F3D
+}
+
+.exps ul{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+/* EXPERIENCIAS */
+/* TÉRMINO ASIDE */
+
+
 @media(min-width: 620px) and (max-width: 969px){
     .item{
         width: 95%;
     }
-    
+
 }
