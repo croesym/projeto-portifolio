@@ -1,7 +1,6 @@
 *{
     font-family: 'Merriweather Sans', sans-serif;
     color: #837E9F;
-
 }
 
 body {
@@ -29,7 +28,6 @@ aside div{
 }
 
 /* ASIDE */
-
 /* PROFILE */
 .profile{
     display: flex;
@@ -49,24 +47,7 @@ aside div{
     max-width: 30%;
     border-radius: 50%;
   }
-
-.profile h1{
-    font-style: normal;
-    font-weight: 700;
-    color: #837E9F;
-    font-size: 23px;
-    margin-top: 20px;
-    margin-bottom: 5px;
-}
-
-.profile h2{
-    color: #837E9F;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 300;
-    margin: 0 auto;
-}
-/* PROFILE */
+/* FIM PROFILE */
 
 /* LINKS */
 .links{
@@ -78,21 +59,10 @@ aside div{
     border-radius: 20px;
 }
 
-.links p{
-    display: flex;
-    align-items: center;
-    margin: 12px 0px 10px 20px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: #837E9F;
-}
-
 .links img{
     margin-right: 10px;
 }
-/* LINKS */
+/* FIM LINKS */
 
 /* TECNOLOGIAS */
 .techs{
@@ -106,20 +76,6 @@ aside div{
     border-radius: 20px;
 }
 
-.techs p{
-    margin: 10px 0px 5px 10px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;  
-}
-
-.tittle{
-    margin: 10px 0px 5px 10px;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;  
-}
-
 .techs-grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -127,22 +83,9 @@ aside div{
     grid-column-gap: 5px;
     grid-row-gap: 0px;
     width: 95%;
-}
-
-.techs-grid p{
-    background: #CB92B1;
-    text-align: center;
-    font-weight: 600;
-    font-size: 13px;
-    text-transform: uppercase;
-    list-style-type: none;
-    margin: 10px;
-    width: 90%;
-    border-radius: 30px;
-    color: black;
+    margin: 0;
 }
 /* TECNOLOGIAS */
-
 
 /* EXPERIENCIAS */
 .exps{
@@ -154,35 +97,12 @@ aside div{
     border-radius: 20px;
 }
 
-.exps h1{
-    margin: 10px 0px 5px 10px;    
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 25px;
-}
-
-.exps p{
-    color:#837E9F;
-    margin: 0 40px 5px 40px;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 15px;
-}
-
 .exps ul{
     display: flex;
     flex-direction: column;
     border-radius: 10px;
     padding: 0px;
     margin: 0px;
-}
-
-.exps ul li{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0 40px;
 }
 /* EXPERIENCIAS */
 /* TÉRMINO ASIDE */
@@ -200,25 +120,6 @@ main header{
     height: 5%;
     width: 95%;
 }
-
-main header p{
-    display: flex;
-    align-items: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    margin: 0px 20px;
-}
-
-main header a{
-    margin-left: auto;
-    margin-right: 5%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-}
 /* TÉRMINO HEADER */
 
 /* PROJETOS */
@@ -233,48 +134,20 @@ main header a{
     height: 150px;  
 }
 
-.item a{
-    text-decoration: none;
-    margin: 15px;
-    display: flex;
-    align-items: center;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-}
-
 .item a img{
     margin-right: 10px;
 }
 
-.item p{
-    text-align: justify;
-    max-width: 90%;
-    margin: 0px 0px 0px 15px;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 20px;
-}
-
-.item h2, h3{
-    display: flex;
-    align-items: center;
-    margin: 5px 0px 0px 15px;
-    font-size: 14px;
-    font-weight: 550;
-}
-
-.item h2, h3 img{
+.item img{
     margin-right: 5px;
 }
 
 .align-right{
     margin-left: auto;
     margin-right: 5%;
-
 }
 
-.align{
+.align-icons{
     display: flex;
     flex-direction: row;
     margin-top: auto;
@@ -301,14 +174,6 @@ main header a{
     width: 95%;
 }
 
-.recente p{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 25px;
-    margin: 0px 20px;
-}
-
 .post{
     display: flex;
     align-items: center;
@@ -325,29 +190,6 @@ main header a{
     width: 10%;
     border-radius: 50%;
     margin: 30px;
-}
-
-.post h1{
-    font-weight: 700;
-    font-size: 20px;
-    margin-bottom: 0px;
-}
-
-.post h2{
-    font-weight: 500;
-    font-size:16px;
-    margin: 0px 0px 15px 0px;
-}
-
-.post p{
-    font-weight: 400;
-    margin: 0px 0px 5px 0px;
-    letter-spacing: 1px;
-}
-
-.post-align{
-    display: flex;
-    flex-direction: column;
 }
 /* FIM POST */
 

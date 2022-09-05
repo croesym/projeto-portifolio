@@ -1,0 +1,159 @@
+/* MAIN */
+/* HEADER */
+main header p{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0px 20px;
+}
+
+main header a{
+    margin-left: auto;
+    margin-right: 5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+/* FIM HEADER */
+
+/* PROJETOS */
+.item a{
+    text-decoration: none;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.item p{
+    text-align: justify;
+    max-width: 90%;
+    margin: 0px 0px 0px 15px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.item h2, h3{
+    display: flex;
+    align-items: center;
+    margin: 5px 5px 0px 15px;
+    font-size: 14px;
+    font-weight: 550;
+} 
+/* FIM PROJETOS */
+
+/* POSTS */
+.recente p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0px 20px;
+}
+
+.post h1{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.post h2{
+    font-weight: 500;
+    font-size:16px;
+    margin: 0px 0px 15px 0px;
+}
+
+.post p{
+    font-weight: 400;
+    margin: 0px 0px 5px 0px;
+    letter-spacing: 1px;
+}
+/* FIM POSTS */
+
+/* ASIDE */
+/* PROFILE */
+.profile h1{
+    font-style: normal;
+    font-weight: 700;
+    color: #837E9F;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.profile h2{
+    color: #837E9F;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 0 auto;
+}
+/* FIM PROFILE */
+
+/* LINKS */
+.links p{
+    display: flex;
+    align-items: center;
+    margin: 12px 0px 10px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #837E9F;
+}
+/* FIM LINKS */
+
+/* TECHS */
+.techs p{
+    margin: 10px 0px 5px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;  
+}
+
+.techs-grid p{
+    background: #CB92B1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 10px;
+    width: 90%;
+    border-radius: 30px;
+    color: black;
+}
+/* FIM TECHS */
+
+/* EXPERIENCIAS */
+.exps ul li{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 40px;
+}
+
+.exps h1{
+    margin: 10px 0px 5px 10px;    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.exps p{
+    color:#837E9F;
+    margin: 0 40px 5px 40px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+}
+/* FIM EXPERIENCIAS */
+
