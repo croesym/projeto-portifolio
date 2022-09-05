@@ -98,7 +98,8 @@ main header a{
 /* FIM PROFILE */
 
 /* LINKS */
-.links p{
+.links a{
+    text-decoration: none;
     display: flex;
     align-items: center;
     margin: 12px 0px 10px 20px;
