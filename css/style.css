@@ -3,6 +3,7 @@
     color: #837E9F;
 
 }
+
 body {
     background-color: #22212C;
     height: 100vh;
@@ -23,6 +24,10 @@ aside{
     grid-area: aside;
 }
 
+aside div{
+    margin: 30px;
+}
+
 /* ASIDE */
 
 /* PROFILE */
@@ -31,7 +36,7 @@ aside{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    /* margin: 30px; */
     height: 30vh;
     max-height: 30vh;
     background: #302F3D;
@@ -67,7 +72,7 @@ aside{
 .links{
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    /* margin: 30px; */
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -94,7 +99,7 @@ aside{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 30px;
+    /* margin: 30px; */
     height: fit-content;
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
@@ -143,7 +148,7 @@ aside{
 .exps{
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    /* margin: 30px; */
     background: #302F3D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
