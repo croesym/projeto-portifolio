@@ -1,12 +1,11 @@
-# Portifólio HTML/CSS
+# Portifólio HTML/CSS :file_folder:
 
-Primeira versão de um portifólio utilizando apenas HTML e CSS.
+<h3>Primeira versão de um portifólio utilizando apenas HTML e CSS.</h3>
 
 Projeto proposto pela Rocketseat.
+[Layout original](https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate).
 
-Layout original: https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate
-
-  <h2>To Do list:
+  <h4>To Do list:
 
 - Reduzir linhas de código
 
@@ -14,7 +13,7 @@ Layout original: https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/
 
 - Endereçar corretamente links
 
-- Consumir API do GitHub na aba "Meus Projetos"
+- Consumir API do GitHub na aba "Meus Projetos"</h4>
 <br>
 
 <p align="center">
