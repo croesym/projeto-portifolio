@@ -1,6 +1,6 @@
 # Portifólio HTML/CSS :file_folder:
 
-<h3>Primeira versão de um portifólio utilizando apenas HTML e CSS.</h3>
+<h3>Página simulando um portifólio, consumindo a API do Gtihub para listar os repositórios.</h3>
 
 Projeto proposto pela Rocketseat.
 [Layout original](https://www.figma.com/file/L6fCiWtOgXCfslQdezqQeF/DD-Portfolio/duplicate).
@@ -9,11 +9,11 @@ Projeto proposto pela Rocketseat.
 
 - Reduzir linhas de código
 
-- Melhorar Responsividade
+- ~~Melhorar Responsividade~~
 
-- Endereçar corretamente links
+- ~~Endereçar corretamente links~~
 
-- Consumir API do GitHub na aba "Meus Projetos"</h4>
+- ~~Consumir API do GitHub na aba "Meus Projetos"~~</h4>
 <br>
 
 <p align="center">
