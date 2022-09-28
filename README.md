@@ -20,5 +20,6 @@ Projeto proposto pela Rocketseat.
   <strong>PREVIEW</strong><br />
 </p>
 
-![Portifolio v1](https://user-images.githubusercontent.com/87200550/187501692-623eef45-6b7f-49a2-98d5-d0b538b20920.png)
+![Portifolio](https://user-images.githubusercontent.com/87200550/189570096-cdf1a5db-f47f-4bbd-9882-9514fe17d446.png)
+
 
