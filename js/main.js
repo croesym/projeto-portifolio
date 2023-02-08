@@ -1,26 +1,32 @@
-const url = "https://api.github.com/users/croesym/repos";
-const repos = document.querySelector('.projetos');
-const reposmaxl = document.getElementById
-//consumir api do github em divs
+const repositories = document.querySelector(".projetos");
 
-fetch(url)
-    .then(response => response.json())
-    .then(data => {
-        data.forEach(repo => {
-            const maxlength = 120;
-            const descriptionFormated = repo.description.substr(0, maxlength ) + '..';
-            repos.innerHTML += `
+function renderRepositories() {
+  fetch(`https://api.github.com/users/croesym/repos`).then(async (res) => {
+    if (!res.ok) {
+      throw new Error("Erro ao buscar dados");
+    }
+
+    let data = await res.json();
+    data.map((item) => {
+      let project = document.createElement("div");
+      let description = item.description || "";
+      
+      if (description.length > 120) {
+        description = description.substring(0, 120) + "...";
+      }
+      
+      project.innerHTML += `
             <div class="item" id="shadow">
-                <a href="${repo.html_url}" id="repo-tittle"><img src="assets/folder.svg" alt="">${repo.name}</a>
-                <p max>${descriptionFormated}</p>
+                <a href="${item.html_url}" id="repo-tittle"><img src="assets/folder.svg" alt="">${item.name}</a>
+                <p max>${description}</p>
                 <div class="align-icons">
-                    <h2><img src="assets/star.svg" alt="">${repo.stargazers_count}</h2>
-                    <h2><img src="assets/git-branch.svg" alt="">${repo.forks_count}</h2>
-                    <h3 class="align-right">${repo.language}</h3>
+                    <h2><img src="assets/star.svg" alt="">${item.stargazers_count}</h2>
+                    <h2><img src="assets/git-branch.svg" alt="">${item.forks_count}</h2>
+                    <h3 class="align-right">${item.language}</h3>
                 </div>
             </div>`;
-        });
+      repositories.appendChild(project);
     });
-
-
-   
+  });
+}
+renderRepositories();
